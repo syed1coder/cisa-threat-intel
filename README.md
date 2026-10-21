@@ -1,6 +1,6 @@
 # 🚨 CISA Known Exploited Vulnerabilities (Automated Feed)
 
-*Last updated: 2026-10-21 00:14:08 UTC*
+*Last updated: 2026-10-21 00:36:19 UTC*
 
 This repository automatically tracks the latest vulnerabilities added to the CISA KEV catalog using a scheduled GitHub Actions workflow.
 
