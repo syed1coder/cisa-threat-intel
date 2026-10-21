@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,12 +25,12 @@ jobs:
       - name: Fetch latest CISA KEV data
         run: python update_feed.py
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "syed1coder"
-          git config --global user.email "shadabsyed90@gmail.com"
-          git add README.md
-          
-          # Only commit if there are actually changes to avoid script errors
-          git diff --quiet && git diff --staged --quiet || git commit -m "docs: update CISA KEV threat feed"
-          git push
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "docs: update CISA KEV threat feed"
+          title: "Automated Threat Feed Update"
+          body: "Review the latest vulnerabilities pulled from the CISA catalog."
+          branch: "automated-threat-update"
+          delete-branch: true
