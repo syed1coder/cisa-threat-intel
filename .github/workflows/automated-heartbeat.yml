@@ -1,0 +1,46 @@
+name: CI/CD System Heartbeat
+on:
+  schedule:
+    # Runs Tuesday and Thursday mornings at 8:30 AM IST
+    - cron: '0 3 * * 2,4'
+  workflow_dispatch:
+
+jobs:
+  heartbeat-cycle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "syed1coder"
+          git config --global user.email "shadabsyed90@gmail.com"
+
+      - name: Open Tracking Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "ISSUE_URL=$(gh issue create --title "System Heartbeat Check $(date +'%Y-%m-%d')" --body "Automated tracking for weekly pipeline verification.")" >> $GITHUB_ENV
+
+      - name: Update System Log & Create Branch
+        run: |
+          git checkout -b heartbeat-update-$(date +'%s')
+          echo "Pipeline verified at: $(date +'%Y-%m-%d %H:%M:%S')" >> heartbeat.log
+          git add heartbeat.log
+          git commit -m "chore: automated pipeline verification"
+          git push -u origin HEAD
+
+      - name: Create and Auto-Merge PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Open the PR and link it to the issue so merging the PR closes the issue
+          PR_URL=$(gh pr create --title "Automated System Log Update" --body "Resolves ${{ env.ISSUE_URL }}." --base main)
+          
+          # Automatically merge the PR
+          gh pr merge $PR_URL --merge --admin --delete-branch
