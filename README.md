@@ -1,18 +1,18 @@
 # 🚨 CISA Known Exploited Vulnerabilities (Automated Feed)
 
-*Last updated: 2026-10-26 19:30:06 UTC*
+*Last updated: 2026-10-30 18:46:44 UTC*
 
 This repository automatically tracks the latest vulnerabilities added to the CISA KEV catalog using a scheduled GitHub Actions workflow.
 
 | CVE ID | Vulnerability Name | Date Added | Action Due |
 |--------|--------------------|------------|------------|
-| CVE-2026-114625 | Arista VeloCloud Orchestrator SQL Injection Vulnerability | 2026-10-23 | 2026-10-26 |
-| CVE-2026-110447 | Collabora Online – Built-in CODE Server OS Command Injection Vulnerability | 2026-10-23 | 2026-10-26 |
-| CVE-2026-106931 | EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability | 2026-10-20 | 2026-10-23 |
-| CVE-2026-96656 | Plex Media Server External Control of File Name or Path Vulnerability | 2026-10-20 | 2026-10-23 |
-| CVE-2026-96655 | Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability | 2026-10-20 | 2026-11-03 |
-| CVE-2026-96654 | Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability | 2026-10-20 | 2026-10-23 |
-| CVE-2026-96652 | Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability | 2026-10-20 | 2026-11-03 |
-| CVE-2026-110936 | Siemens Software Center Uncontrolled Search Path Element Vulnerability | 2026-10-20 | 2026-11-03 |
-| CVE-2026-102764 | BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability | 2026-10-16 | 2026-10-19 |
-| CVE-2025-61624 | Fortinet Multiple Products Path Traversal Vulnerability | 2026-10-16 | 2026-10-19 |
+| CVE-2026-118527 | Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability | 2026-10-30 | 2026-11-13 |
+| CVE-2026-111357 | Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability | 2026-10-30 | 2026-11-02 |
+| CVE-2026-97229 | GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability | 2026-10-29 | 2026-11-01 |
+| CVE-2026-76418 | Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability | 2026-10-29 | 2026-11-01 |
+| CVE-2026-41709 | Broadcom VMWare ESX Insufficient Logging Vulnerability | 2026-10-28 | 2026-11-11 |
+| CVE-2026-46300 | Linux Kernel Missing Initialization of a Variable Vulnerability | 2026-10-28 | 2026-10-31 |
+| CVE-2026-48356 | Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability | 2026-10-27 | 2026-11-10 |
+| CVE-2026-111497 | Google Brotli Unchecked Return Value Vulnerability | 2026-10-27 | 2026-11-10 |
+| CVE-2026-109618 | PHP Memory Corruption Vulnerability | 2026-10-26 | 2026-10-29 |
+| CVE-2026-109619 | PHP Stale Internal Request-State Vulnerability | 2026-10-26 | 2026-10-29 |
