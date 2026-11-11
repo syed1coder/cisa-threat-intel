@@ -1,18 +1,18 @@
 # 🚨 CISA Known Exploited Vulnerabilities (Automated Feed)
 
-*Last updated: 2026-11-02 22:26:07 UTC*
+*Last updated: 2026-11-10 22:31:40 UTC*
 
 This repository automatically tracks the latest vulnerabilities added to the CISA KEV catalog using a scheduled GitHub Actions workflow.
 
 | CVE ID | Vulnerability Name | Date Added | Action Due |
 |--------|--------------------|------------|------------|
-| CVE-2026-118527 | Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability | 2026-10-30 | 2026-11-13 |
-| CVE-2026-111357 | Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability | 2026-10-30 | 2026-11-02 |
-| CVE-2026-97229 | GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability | 2026-10-29 | 2026-11-01 |
-| CVE-2026-76418 | Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability | 2026-10-29 | 2026-11-01 |
-| CVE-2026-41709 | Broadcom VMWare ESX Insufficient Logging Vulnerability | 2026-10-28 | 2026-11-11 |
-| CVE-2026-46300 | Linux Kernel Missing Initialization of a Variable Vulnerability | 2026-10-28 | 2026-10-31 |
-| CVE-2026-48356 | Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability | 2026-10-27 | 2026-11-10 |
-| CVE-2026-111497 | Google Brotli Unchecked Return Value Vulnerability | 2026-10-27 | 2026-11-10 |
-| CVE-2026-109618 | PHP Memory Corruption Vulnerability | 2026-10-26 | 2026-10-29 |
-| CVE-2026-109619 | PHP Stale Internal Request-State Vulnerability | 2026-10-26 | 2026-10-29 |
+| CVE-2026-124194 | Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability | 2026-11-10 | 2026-11-24 |
+| CVE-2026-111793 | Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability | 2026-11-10 | 2026-11-24 |
+| CVE-2026-20320 | Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability | 2026-11-10 | 2026-11-24 |
+| CVE-2026-111560 | Barracuda Networks Multiple Products OS Command Injection Vulnerability | 2026-11-10 | 2026-11-13 |
+| CVE-2026-116606 | Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability | 2026-11-10 | 2026-11-13 |
+| CVE-2026-125350 | Google Chromium Use-After-Free Vulnerability | 2026-11-10 | 2026-11-24 |
+| CVE-2026-102895 | GPUStack Improper Authentication Vulnerability | 2026-11-09 | 2026-11-12 |
+| CVE-2026-123158 | OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability | 2026-11-09 | 2026-11-12 |
+| CVE-2026-116779 | SignalWire FreeSwitch Code Injection Vulnerability | 2026-11-09 | 2026-11-12 |
+| CVE-2026-123218 | IBM Aspera Faspex Incorrect Authorization Vulnerability | 2026-11-09 | 2026-11-12 |
