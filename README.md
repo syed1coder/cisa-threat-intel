@@ -1,18 +1,18 @@
 # 🚨 CISA Known Exploited Vulnerabilities (Automated Feed)
 
-*Last updated: 2026-11-10 22:31:40 UTC*
+*Last updated: 2026-11-27 22:14:37 UTC*
 
 This repository automatically tracks the latest vulnerabilities added to the CISA KEV catalog using a scheduled GitHub Actions workflow.
 
 | CVE ID | Vulnerability Name | Date Added | Action Due |
 |--------|--------------------|------------|------------|
-| CVE-2026-124194 | Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability | 2026-11-10 | 2026-11-24 |
-| CVE-2026-111793 | Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability | 2026-11-10 | 2026-11-24 |
-| CVE-2026-20320 | Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability | 2026-11-10 | 2026-11-24 |
-| CVE-2026-111560 | Barracuda Networks Multiple Products OS Command Injection Vulnerability | 2026-11-10 | 2026-11-13 |
-| CVE-2026-116606 | Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability | 2026-11-10 | 2026-11-13 |
-| CVE-2026-125350 | Google Chromium Use-After-Free Vulnerability | 2026-11-10 | 2026-11-24 |
-| CVE-2026-102895 | GPUStack Improper Authentication Vulnerability | 2026-11-09 | 2026-11-12 |
-| CVE-2026-123158 | OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability | 2026-11-09 | 2026-11-12 |
-| CVE-2026-116779 | SignalWire FreeSwitch Code Injection Vulnerability | 2026-11-09 | 2026-11-12 |
-| CVE-2026-123218 | IBM Aspera Faspex Incorrect Authorization Vulnerability | 2026-11-09 | 2026-11-12 |
+| CVE-2026-120705 | OSGeo GeoServer XML Injection Vulnerability | 2026-11-27 | 2026-11-30 |
+| CVE-2026-129243 | OSGeo GeoServer Incorrect Authorization Vulnerability | 2026-11-27 | 2026-11-30 |
+| CVE-2026-136716 | Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability | 2026-11-27 | 2026-11-30 |
+| CVE-2026-103406 | Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability | 2026-11-25 | 2026-11-28 |
+| CVE-2026-133469 | Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability | 2026-11-25 | 2026-11-28 |
+| CVE-2025-41450 | Danfoss AK-SM 800A Series Improper Authentication Vulnerability | 2026-11-25 | 2026-12-09 |
+| CVE-2023-25914 | Danfoss AK-SM 800A Series Path Traversal Vulnerability | 2026-11-25 | 2026-11-28 |
+| CVE-2023-25915 | Danfoss AK-SM 800A Series Improper Input Validation Vulnerability | 2026-11-25 | 2026-11-28 |
+| CVE-2026-133324 | Mitel MiCollab Not Failing Securely Vulnerability | 2026-11-25 | 2026-11-28 |
+| CVE-2026-133275 | Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability | 2026-11-25 | 2026-11-28 |
